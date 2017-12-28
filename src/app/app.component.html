@@ -1,0 +1,14 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div style="text-align:center">
+    <h1>
+        {{ title }}!
+    </h1>
+    <input [(ngModel)]='num1' type="text" class="form-control" placeholder="Enter  a number"><br>
+    <input [(ngModel)]='num2' type="text" class="form-control" placeholder="Enter  another number"><br>
+    <button class="btn btn-success" (click)='add()'>Add</button>
+    <button class="btn btn-success" (click)='sub()'>Subtract</button>
+    <button class="btn btn-success" (click)='mul()'>Multiply</button>
+    <button class="btn btn-success" (click)='div()'>Divide</button>
+    <h2>Result={{res}}</h2>
+
+</div>
